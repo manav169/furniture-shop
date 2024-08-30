@@ -1,0 +1,23 @@
+.footer-container{
+    /* max-height: 20vh; */
+    display:flex;
+    padding: 2rem 5rem 4rem;
+    background-color: rgb(225, 224, 224);
+    justify-content: space-between;
+    align-items: start;
+    padding-left: auto;
+
+}
+
+
+ul{
+    font-size: 15px;
+    font-family: oswald;
+    margin: 0;
+    padding: 0;
+    align-items: start;
+    list-style-type: none;
+}
+.logo{
+    margin-left: 4rem;
+}

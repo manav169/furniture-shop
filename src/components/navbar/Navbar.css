@@ -1,12 +1,20 @@
 .navbar{
-    font-size: 0.8rem;
+    font-size: 14 px;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
+
+
+.links{
+  text-decoration: none !important;
+  color: black;
+  font-size: 10px;
+}
 
 
 .nav-links{
@@ -15,7 +23,6 @@
 }
 
 .navbar-center ul{
-
     display: flex;
     margin: 0;
     padding: 0;

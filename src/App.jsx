@@ -7,22 +7,32 @@ import Navbar from "./components/navbar/Navbar";
 import { Route,Routes } from "react-router-dom";
 
 import Decor from "./pages/Decor";
+
+import Footer from "./components/footer/Footer";
+
+import Hero from "./components/hero/Hero";
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      {/* Header Component */}
-      
+    <div className="app-container">
+    {/* Header Component */}
+
+
+    <div className="content">
       <Routes>
-        <Route path="/" element={<Navbar/>} />
-        {/* <Route path="/shopAll" element={} /> */}
+        <Route path="/" element={<Navbar />} />
         <Route path="/decor" element={<Decor />} />
-        {/* <Route path="/livingRoom" element={} /> */}
-        {/* <Route path="/bedroom" element={} /> */}
       </Routes>
-      
-    </>
+    </div>
+
+    <Hero />
+
+    {/* Footer Component */}
+    <Footer />
+
+  </div>
   );
 }
 
