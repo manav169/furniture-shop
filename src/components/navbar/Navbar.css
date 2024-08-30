@@ -1,4 +1,5 @@
 .navbar{
+    font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,6 +7,40 @@
     padding: 1rem;
 }
 
-.navbar-center {
+
+
+.nav-links{
     list-style-type: none;
+
 }
+
+.navbar-center ul{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar-right ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-center ul li{
+    margin-right: 1rem;
+  }
+
+.navbar-right ul li{
+    margin-right: 1rem;
+  }
+
+  .navbar-center .nav-links li{
+    color: #000 ;
+    text-decoration: none;
+  }
+
+  .navbar-right .nav-links Link{
+    color: #fff;
+    text-decoration: none;
+  }

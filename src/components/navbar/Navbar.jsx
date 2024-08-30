@@ -3,14 +3,15 @@ import "./Navbar.css";
 import {Link} from 'react-router-dom';
 
 
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <Link to="/">Furniture Shop logo</Link>
+        <Link to="/" className="logo"> <img src="../../public/assets/logo-regular.png"/></Link>
         </div>
       <div className="navbar-center">
-        <ul>
+        <ul className="nav-links">
           <li><Link to="/shopAll">SHOP ALL</Link></li>
           <li><Link to="/decor">DECOR</Link></li>
           <li><Link to="/office">OFFICE</Link></li>
@@ -20,7 +21,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <ul>
+        <ul className="nav-links">
           <li><Link to="/story">STORY</Link></li>
           <li><Link to="/contact">CONTACT</Link></li>
           <li><Link to="/trackOrder">TRACK ORDER</Link></li>
